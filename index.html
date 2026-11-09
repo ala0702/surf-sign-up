@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Sign Up | Surf Club</title>
 </head>
+
 <body>
     <!-- two main parts: photo and form -->
-     <div class="side-image">
-        <img src="images/surf-side-photo.jpg" alt="">
-     </div>
-     <div class="main-content">
-        <div class="intro-warning-form-text">it is not real surf camp web.</div>
-        <div class="sign-in-section">
-            <div class="intro-form-text">do you want to catch a wave?.</div>
-            <form>
-                <div class="welcome-to-form-text">Hola mojo!</div>
-
-                <label for="name"></label>
-                <input type="text" placeholder="bob" id="name" name="name" required>
-                <label for="surname"></label>
-                <input type="text" placeholder="kowalski" id="surname" name="surname" required>
-                <label for="email"></label>
-                <input type="email" placeholder="" id="email" name="'email" required>
-                <label for="telephone-number"></label>
-                <input type="tel" placeholder="" id="telephone-number" required>
-                <label for="password-one"></label>
-                <input type="password" placeholder="" id="password-one" required>
-                <label for="password-two"></label>
-                <input type="password-check" placeholder="" id="password-two" required>
-                <!-- submit -->
-                <button>Create account</button>
-            </form>
+    <div class="container">
+        <div class="side-image">
+            <img src="images/surf-side-photo.jpg" alt="">
         </div>
-        <div class="log-in-section">
-            <div>already have an account?</div>
-            <button>
-                Log in
-            </button>
+        <div class="main-content">
+            <div class="intro-warning-form-text">it is not real surf camp web.</div>
+            <div class="sign-up-section">
+                <h1 class="welcome-to-form-text">Hola mojo! &lt;3 </h1>
+                <div class="intro-form-text">do you want to catch a wave?</div>
+                <form>
+                    <div class="form-field"><label for="name">First name</label>
+                        <input type="text" placeholder="bob" id="name" name="name" required>
+                    </div>
+                    <div class="form-field"><label for="surname">Surname</label>
+                        <input type="text" placeholder="kowalski" id="surname" name="surname" required>
+                    </div>
+                    <div class="form-field"><label for="email">Email</label>
+                        <input type="email" placeholder="" id="email" name="email" required>
+                    </div>
+                    <div class="form-field"><label for="telephone-number">Phone number</label>
+                        <input type="tel" placeholder="" id="telephone-number" name="phone" required>
+                    </div>
+                    <div class="form-field"><label for="password-one">Password</label>
+                        <input type="password" placeholder="" id="password-one" name="password-one" required>
+                    </div>
+                    <div class="form-field"><label for="password-two">Repeat password</label>
+                        <input type="password" placeholder="" id="password-two" name="password-two" required>
+                    </div>
+                    <!-- submit -->
+                    <button type="submit">Create account</button>
+                </form>
+            </div>
+            <div class="log-in-section">
+                <div>already have an account? <a href="#">log in</a></div>
+            </div>
         </div>
-     </div>
+    </div>
 </body>
+
 </html>
