@@ -46,6 +46,13 @@ label, .intro-warning-form-text {
 
 .side-image {
     flex: 1;
+    position: relative; 
+}
+.logo-banner {
+  position: absolute;    
+  font-size: var(--text-xl);
+  top: 20px;
+  left: 20px;
 }
 
 .main-content {
